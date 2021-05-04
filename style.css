@@ -61,7 +61,7 @@ body {
 }
 
 .error-cta {
-  text-transform: none;
+  text-decoration: none;
   color: #957c09;
   font-size: 1.7rem;
   border: 1px solid #957c09;
@@ -72,4 +72,26 @@ body {
 .error-cta:hover {
   background-color: #957c09;
   color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .error-box {
+    max-width: 70rem;
+  }
+
+  .error-number {
+    font-size: 6rem;
+  }
+
+  .error-message {
+    font-size: 3.5rem;
+  }
+
+  .error-description {
+    font-size: 1.6rem;
+  }
+
+  .error-cta {
+    font-size: 2rem;
+  }
 }
